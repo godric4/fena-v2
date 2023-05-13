@@ -1,29 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
-const links = [
- {
-  id:1,
-  name: "home",
-  path:"/"
- },
- {
-  id:2,
-  name: "about",
-  path: '/about'
- },
-  {
-   id:4,
-  name: "portfolio",
-  path:"/portfolio"
- },
-  {
-   id:5,
-  name: "contact",
-  path:"/contact"
- },
-]
+import { links } from '../utils/data';
 
 const NavLinks = () => {
  return (

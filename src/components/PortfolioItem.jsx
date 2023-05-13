@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-
-// import bg from '../assets/bg.jpg'
 import pf from '../assets/pf.png'
 import { Link } from 'react-router-dom'
 import { FaLink, FaTwitter } from 'react-icons/fa'
@@ -12,7 +10,7 @@ const PortfolioItem = ({ id, name, imgUrl, field }) => {
     <Wrapper className="col-sm-4 col-12 col-md-6 col-lg-4" key={id}>
          <div className="container project">
           <img src={`${pf}`} alt="" className='project-image' />
-          <Link className="project-link">
+          <Link to={`/projects/${id}`} className="project-link">
            {name}
            <br />
            <FaLink />
@@ -49,7 +47,7 @@ const Wrapper = styled.div `
     justify-content: center;
     flex-direction: column;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     opacity: 0;
     width: 100%;
   height: 100%;
@@ -58,19 +56,7 @@ const Wrapper = styled.div `
     border-left: 3px solid #fff;
 }
 
-/* .project-link::before {
-    display: block;
-    content: "";
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    top: 35px;
-    left: 35px;
-    border-top: 3px solid #fff;
-    border-left: 3px solid #fff;
-    transition: all 0.5s ease 0s;
-    z-index: 9994;
-} */
+
 
 .project-link:hover {
  opacity: 1;
@@ -93,16 +79,3 @@ const Wrapper = styled.div `
 `
 
 export default PortfolioItem
-
-// const { id, name, imgUrl, field } = item
-//         return <div className="col-sm-4 col-12 col-md-6 col-lg-4" key={id}>
-//          <div className="container project">
-//           <img src={`${pf}`} alt="" className='project-image' />
-//           <Link className="project-link">
-//            {name}
-//            <br />
-//            <FaLink />
-//           </Link>
-//           <p className="project-field">{field}</p>
-//          </div>
-//         </div>

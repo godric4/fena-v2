@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ContactForm, Footer, Navbar, PageTitle } from '../components'
-import bg from '../assets/bg.jpg'
-import pf from '../assets/pf.png'
+import { ContactForm, Footer, Navbar, PageTitle, SideBar } from '../components'
 import { Link } from 'react-router-dom'
 import { FaEnvelope, 
         FaFacebook,
@@ -71,9 +69,9 @@ const Contact = () => {
         <p>+234 5350 422 343</p>   </div>    
       </div>
      </div>
-     <ContactForm />
-     
+     <ContactForm />     
     </div>
+    <SideBar />
    
    </div>
     <Footer />
@@ -83,11 +81,8 @@ const Contact = () => {
 
 const Wrapper = styled.section`
 
-
-// const filterWorks = new Set(data);
 .icon {
- font-size: 24px;
-   
+ font-size: 24px;   
     border-radius: 50%;
     padding: 14px;
     background-color: white;

@@ -6,6 +6,8 @@ import Footer from './Footer';
 import CategoryButton from './CategoryButtons';
 import MyWork from './MyWorks';
 import PortfolioItem from './PortfolioItem';
+import MiniTitle from './MiniTitle';
+import SideBar from './SideBar';
 
 
 export {
@@ -16,5 +18,7 @@ ContactForm,
 Footer,
 CategoryButton,
 MyWork,
-PortfolioItem
+PortfolioItem,
+MiniTitle,
+SideBar
 }

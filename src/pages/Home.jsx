@@ -1,14 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
-import { NavLinks } from '../components'
+import { NavLinks, SideBar } from '../components'
 import { Link } from 'react-router-dom'
 import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp} from 'react-icons/fa'
 import bg from '../assets/bg.jpg'
 
 const Home = () => {
   return (
+   <>
+    <div className="home-header container">
+     <div className=""></div>
+       <SideBar />
+    </div>
+  
     <Wrapper>
-     <div className="container hero">
+    
+     <div className="container hero">   
       <h2 className='name'>
        <Link to="/">
        Godric Marto
@@ -37,6 +44,7 @@ const Home = () => {
       </div>
      </div>
     </Wrapper>
+     </>
   )
 }
 
@@ -53,6 +61,8 @@ height: 100vh;
  align-items: center;
  z-index: 199;
  color: black;
+
+ 
 
  .hero {
   

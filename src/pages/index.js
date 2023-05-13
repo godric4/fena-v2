@@ -3,6 +3,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import About from './About';
 import Error from './Error';
+import ProjectDetails from './ProjectDetails';
 
 
 export {
@@ -10,5 +11,6 @@ export {
  Portfolio,
 Contact,
 About,
-Error
+Error,
+ProjectDetails
 }

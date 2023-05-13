@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import NavLinks from './NavLinks'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
+import Sidebar from './SideBar'
+
 
 const Navbar = () => {
+ 
   return (
     <Wrapper >
      <div className="container">
@@ -14,9 +17,7 @@ const Navbar = () => {
      <div className="">
       <NavLinks />
      </div>
-     <button className="nav-toggle">
-      <FaBars />
-     </button>
+     <Sidebar />
      </div>   
     </Wrapper>
   )

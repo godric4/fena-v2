@@ -11,6 +11,8 @@
  src: url('./assets/fonts/LobsterTwo-BoldItalic.ttf');
 }
 
+
+
 :root {
   
  --grey: #243b53;
@@ -42,17 +44,24 @@ a {
  color: chocolate;
 }
 
+.home-header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 80vw;
+}
+
 
 .page-container {
- background: rgba(255, 255, 255, 0.95);
+ background: rgba(255, 255, 255, 0.75);
  margin-top: 1.5rem;
  color: white;
- min-height: 100vh;
+ min-height: 82vh;
 }
 
 
 .page-wrapper {
- height: 60vh;
+ height: 70vh;
   background-image: url('../src/assets/bg.jpg');
   background-repeat: no-repeat;
   background-position: right bottom;

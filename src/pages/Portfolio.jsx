@@ -24,13 +24,11 @@ const Portfolio = () => {
  }
 
 
-
  return (
   <Wrapper className='page-wrapper'>
    <Navbar />
    <div className="page-container container">
-    <PageTitle title={title} description={description} />
- 
+    <PageTitle title={title} description={description} /> 
     <div className="project-card">
     <div className="text-center">
       <CategoryButton  categories={categories} filterItems={filterItems} />
