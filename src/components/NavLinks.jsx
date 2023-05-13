@@ -14,11 +14,6 @@ const links = [
   path: '/about'
  },
   {
-   id:3,
-  name: "services",
-  path:"/services"
- },
-  {
    id:4,
   name: "portfolio",
   path:"/portfolio"
@@ -29,8 +24,6 @@ const links = [
   path:"/contact"
  },
 ]
-
-console.log(links);
 
 const NavLinks = () => {
  return (
@@ -51,6 +44,12 @@ const NavLinks = () => {
 
 const Wrapper = styled.div `
  transition: var(--transition);
+ font-size: 16px;
+
+ a:active {
+   color: chocolate;
+   transition: var(--transition);
+ }
 
     a:hover {
     color: chocolate;

@@ -9,10 +9,14 @@ const Home = () => {
   return (
     <Wrapper>
      <div className="container hero">
-      <h2 className='name'>Godric Marto</h2>
-      <p className='text-intro'>I'm a passionate <span>
+      <h2 className='name'>
+       <Link to="/">
+       Godric Marto
+       </Link>
+      </h2>
+      <p className='text-intro'>I'm a <span>
        Web Developer
-       </span> from Lagos</p>
+       </span> based in Lagos</p>
       <NavLinks />
       <div className="social-icons">
        <Link to="/" className='icon'>
@@ -56,11 +60,7 @@ height: 100vh;
    transition: var(--transition);
  }
 
- .name {
-  font-size: 48px;
-    font-weight: 700;
-    font-family: 'lobster';
- }
+ 
  .social-icons {
   display: flex;
   transition: var(--transition);
@@ -72,7 +72,7 @@ height: 100vh;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(5, 56, 107, 0.9);
    
     color: var(--white);
     line-height: 1;
@@ -91,7 +91,8 @@ height: 100vh;
  }
 
  .text-intro span {
-  border-bottom: 4px solid chocolate;
+  border-bottom: 4px solid var(--navy);
+  font-style: italic;
  }
 
  /* Media Queries */
