@@ -1,0 +1,31 @@
+*,
+::after,
+::before {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+@font-face {
+ font-family: lobster;
+ src: url('./assets/fonts/LobsterTwo-BoldItalic.ttf');
+}
+
+:root {
+  
+ --grey: #243b53;
+ --grey-900: #102a43;
+ --black: #222;
+ --white: #fff;
+ 
+ --transition: ease-in-out 0.3s;;
+}
+
+
+
+
+a {
+ text-decoration: none;
+ color: inherit;
+ text-transform: capitalize;
+}
