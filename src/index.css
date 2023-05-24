@@ -57,10 +57,12 @@ a {
  margin-top: 1.5rem;
  color: white;
  min-height: 82vh;
+ width: 100vw;
 }
 
 
 .page-wrapper {
+ width: 100vw;
  height: 70vh;
   background-image: url('../src/assets/bg.jpg');
   background-repeat: no-repeat;
