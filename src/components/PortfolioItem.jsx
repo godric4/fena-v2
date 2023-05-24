@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { FaLink, FaTwitter } from 'react-icons/fa'
 
 
-const PortfolioItem = ({ id, name, imgUrl, field }) => {
+const PortfolioItem = ({ id, name, imgUrl, field, }) => {
   return (
     <Wrapper className="col-sm-4 col-12 col-md-6 col-lg-4" key={id}>
          <div className="container project">

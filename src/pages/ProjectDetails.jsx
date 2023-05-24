@@ -11,7 +11,7 @@ const ProjectDetails = () => {
 
  const project =  items.find( item => item.id === Number(id)  )
 
- const {name, category, url, size, imgUrl,field, link, description} = project
+ const {name, category, size, imgUrl,field, link, description} = project
 
  return (
   <Wrapper className='page-wrapper'>
@@ -25,14 +25,14 @@ const ProjectDetails = () => {
        <div className="container">
         <div className="row">
          <div className="col-md-5">
-         <img className='project-image' src={bg} alt="" width={200} />
+         <img className='project-image' src={imgUrl} alt={name} width={200} />
          </div>
          <div className="col-md-7 text-details">
            <p className='upper'>Project Title: <span>{name}</span></p>
           <p  className='upper'>Language/Framework: <span>{category}</span></p>
            <p  className='upper'>Focus Area: <span>{field}</span></p>
            <p  className='upper'>Project size: <span>{size}</span></p>
-          <p>Project URL: <span><Link to={url} ><em>{url}</em></Link> </span></p>
+          <p>Project URL: <span><Link to={link} ><em>{url}</em></Link> </span></p>
          <p  className='text-dark'>{description}</p>
          </div>
         </div>
