@@ -9,7 +9,7 @@ const PortfolioItem = ({ id, name, imgUrl, field }) => {
   return (
     <Wrapper className="col-sm-4 col-12 col-md-6 col-lg-4" key={id}>
          <div className="container project">
-          <img src={`${pf}`} alt="" className='project-image' />
+          <img src={`${imgUrl}`} alt={name} className='project-image' />
           <Link to={`/projects/${id}`} className="project-link">
            {name}
            <br />

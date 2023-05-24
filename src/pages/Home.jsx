@@ -26,7 +26,7 @@ const Home = () => {
        </span> based in Lagos</p>
       <NavLinks />
       <div className="social-icons">
-       <a ><FaFacebook /></a>
+       <a href='https://www.facebook.com/Godrique' ><FaFacebook /></a>
         <a href='https://twitter.com/Fenalito'> <FaTwitter /></a>
         <a href="https://wa.me/2348188534279?text=Hello %20Godric,%20i%20got%20something%20important%20to%20share%20with%20you'"> <FaWhatsapp /></a>
          <a href='https://www.instagram.com/fena_400/'> <FaInstagram /></a>
