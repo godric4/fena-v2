@@ -59,6 +59,10 @@ height: 100vh;
   
   line-height: 1;
    transition: var(--transition);
+
+   h2 {
+     text-shadow: 3px 3px chocolate;
+   }
  }
 
  
@@ -89,11 +93,12 @@ height: 100vh;
 
  .text-intro {
   font-size: 1.4rem;
+  font-weight: 500;
+
  }
 
  .text-intro span {
-  border-bottom: 4px solid var(--navy);
-  font-style: italic;
+   font-style: italic;
  }
 
  /* Media Queries */
@@ -116,11 +121,23 @@ position: relative;
   position: absolute;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+
+   p {
+    color: chocolate;
+     text-shadow: 3px 1px black;
+   }
+
+   h2 {   
+
+    a:hover {
+     color: inherit;
+    }
+   }
  }
  }
 
