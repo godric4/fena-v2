@@ -19,7 +19,7 @@ export const items = [
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
   imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1675536347/samples/screenshots/targets_ocw431.png',
   size: 'small',
-   link: 'https://targets.netlify.app/',
+   link: 'https://targets.netlify.app',
   
  },
  {
