@@ -32,7 +32,7 @@ const ProjectDetails = () => {
           <p  className='upper'>Language/Framework: <span>{category}</span></p>
            <p  className='upper'>Focus Area: <span>{field}</span></p>
            <p  className='upper'>Project size: <span>{size}</span></p>
-          <p>Project URL: <span><Link to={link} ><em>{url}</em></Link> </span></p>
+          <p>Project URL: <span><Link to={link} ><em>{link}</em></Link> </span></p>
          <p  className='text-dark'>{description}</p>
          </div>
         </div>
