@@ -15,7 +15,6 @@ const About = () => {
    <div className="page-container container">
     <PageTitle title={title} description={description} />
     <div className="about container">
-     {/* <h4>Frontend Web Developer</h4> */}
      <p>I am an innovative and deadline-driven frontend web developer with 3+ years of experience designing and developing user-centered web apps from initial concept to final, polished deliverable. ipsum dolor sit amet consectetur, adipisicing elit. Repellendus totam tenetur nihil sed numquam voluptatibus repellat omnis perferendis aspernatur, sapiente laboriosam aut natus delectus similique voluptatem, quam quis maxime velit?</p>
 
      
@@ -107,7 +106,7 @@ background: rgba(5, 56, 107, 0.4);
  }
 
  .service {
-  border: 1rem solid white;
+  border: 2rem solid white;
   background-color: rgba(5, 56, 107, 0.4);
   color: var(--navy);
   padding: 1rem;

@@ -62,9 +62,7 @@ const ContactForm = () => {
    })
  }
  return (
-  <Wrapper>
-
-
+  <Wrapper className=''>
    <div className='container pt-3 mt-2  mb-5'>
     <div className='contact-form'>
      <form onSubmit={handleOnSubmit}>

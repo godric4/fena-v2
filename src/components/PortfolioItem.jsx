@@ -7,7 +7,7 @@ import { FaLink, FaTwitter } from 'react-icons/fa'
 
 const PortfolioItem = ({ id, name, imgUrl, field, }) => {
   return (
-    <Wrapper className="col-sm-4 col-12 col-md-6 col-lg-4" key={id}>
+    <Wrapper className="col-sm-4 col-12 col-md-6 col-lg-4 container" key={id}>
          <div className="container project">
           <img src={`${imgUrl}`} alt={name} className='project-image' />
           <Link to={`/projects/${id}`} className="project-link">
