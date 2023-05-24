@@ -1,50 +1,66 @@
-import { FaCodeBranch, FaCss3, FaDashcube, FaDatabase, FaFistRaised, FaHtml5, FaJs, FaLaptopCode, FaPython, FaReact, FaRobot, FaSmile } from 'react-icons/fa'
+import { FaCodeBranch, FaCss3, FaDashcube, FaDatabase,  FaHtml5, FaJs, FaPython, FaReact } from 'react-icons/fa'
 
 export const items = [
  {
   id: 1,
-  name: 'journey',
+  name: 'Lorine',
   category: 'React',
   field: 'E-commerce',
-  url: 'http://www.journey.com',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
-  imgUrl: '../assets/bg.jpg',
+  imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1681177403/Screenshot_from_2023-04-11_02-35-28_jrtduw.png',
   size: 'medium',
-  link: 'www.nsogbu.com'
+  link: 'https://lorinecakes.netlify.app'
  },
  {
   id: 2,
-  name: 'jorney',
-  category: 'HTML & CSS',
-  field: 'Hotel Reservation',
-  url: 'http://www.journey.com',
+  name: 'Targets',
+  category: 'REACT',
+  field: 'To-Do',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
-  imgUrl: 'www.cloud.com',
-  size: 'medium',
-  link: 'www.nsogbu.com'
+  imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1675536347/samples/screenshots/targets_ocw431.png',
+  size: 'small',
+   link: 'https://targets.netlify.app/',
   
  },
  {
   id: 3,
-  name: 'journey',
+  name: 'Calxo',
   category: 'Python',
   field: 'Crypto',
-  url: 'http://www.journey.com',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
-  imgUrl: 'www.cloud.com',
+  imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1675536974/samples/screenshots/lorine_glfsqy.png',
   size: 'medium',
-  link: 'www.nsogbu.com'
+  link: '#'
  },
  {
   id: 4,
   name: 'Nyceli',
   category: 'Vanilla js',
-  field: 'AI',
-  url: 'http://www.journey.com',
+  field: 'SChool Management System',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
-  imgUrl: 'www.cloud.com',
+  imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1675537024/samples/screenshots/coffee_harjkg.png',
   size: 'medium',
-  link: 'www.nsogbu.com'
+  link: '#'
+ },
+ {
+  id: 5,
+  name: 'Mr-and-Mrs',
+  category: 'HTML and CSS',
+  field: 'Wedding Website',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
+  imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1675537024/samples/screenshots/coffee_harjkg.png',
+  size: 'medium',
+  link: '#'
+ },
+ {
+  id: 6,
+  name: 'PrintF',
+  category: 'C',
+  field: 'DevOps',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates enim magnam ducimus eius voluptatibus quo eveniet vero necessitatibus libero officiis provident, temporibus vitae cupiditate non omnis recusandae delectus incidunt?',
+  imgUrl: 'https://res.cloudinary.com/gentlegiant/image/upload/v1675537024/samples/screenshots/coffee_harjkg.png',
+  size: 'medium',
+  link: '#'
  }
 ]
 
