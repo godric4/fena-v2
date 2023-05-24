@@ -74,7 +74,7 @@ const Wrapper = styled.aside`
    text-align: left;
    background: rgba(5, 56, 107, 0.9);
    position: absolute;
-   right: -1rem;
+   right: 0rem;
    height: 90vh;
    width: 90vw;
    border-radius: 25px;
