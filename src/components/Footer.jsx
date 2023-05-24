@@ -20,6 +20,7 @@ padding: 1rem;
 
 p {
  line-height: 1;
+ padding: .2rem;
 }
 `
 export default Footer
