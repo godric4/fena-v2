@@ -54,7 +54,11 @@ const Wrapper = styled.aside`
   .sidebar {
    position: fixed;
    top: 0rem;
+<<<<<<< HEAD
    right: 1.3rem;
+=======
+   right: 1rem;
+>>>>>>> 0c418201dee32f38109338f2707d13f6eac0ed5b
    width: -100%;
    transform: translateZ(0);
    -webkit-transform: translateZ(0);

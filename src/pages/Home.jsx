@@ -92,7 +92,7 @@ height: 100vh;
  }
 
  .text-intro {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
 
  }
@@ -110,8 +110,12 @@ position: relative;
 
   .name, .social-icons, .text-intro{
    text-align: center;
+   
   }
 
+  .name {
+   margin-top: 5rem;
+  }
 
   .social-icons{
    justify-content: center;
