@@ -47,7 +47,6 @@ const Wrapper = styled.div `
     justify-content: center;
     flex-direction: column;
     font-weight: 700;
-    font-size: 1.5rem;
     opacity: 0;
     width: 100%;
   height: 100%;
@@ -61,19 +60,23 @@ const Wrapper = styled.div `
 .project-link:hover {
  opacity: 1;
   background: rgba(5, 56, 107, 0.7);
-  width: 92%;
+  width: 96%;
   height: 100%;
 }
 
 .project-field {
  position: absolute;
  color: white;
- top:3px;
- left: 20px;
+ top:1px;
+ left: 15px;
  background: rgba(5, 56, 107, 0.8);
  padding: .3rem;
  font-weight: bold;
  font-size: 14px;
+}
+
+.project-field:hover {
+ left: 70px;
 }
 
 `
