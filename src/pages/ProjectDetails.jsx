@@ -11,7 +11,7 @@ const ProjectDetails = () => {
 
  const project =  items.find( item => item.id === Number(id)  )
 
- const {name, category, size, imgUrl,field, link, description} = project
+ const {name, category, size, imgUrl,field, link, description, status} = project
 
  return (
   <Wrapper className='page-wrapper'>
@@ -33,7 +33,9 @@ const ProjectDetails = () => {
            <p  className='upper'>Focus Area: <span>{field}</span></p>
            <p  className='upper'>Project size: <span>{size}</span></p>
           <p className='project-link'>Project URL: <span><Link to={link} ><em>{link}</em></Link> </span></p>
+           <p className="status upper">Project Status: <span>{status}</span></p>
          <p  className='text-dark'>{description}</p>
+        
          </div>
         </div>
        </div>
@@ -77,7 +79,7 @@ const Wrapper = styled.section`
 
 .project-link span a em {
   
-  color: black;
+  color: purple;
   font-weight: 400;
   text-transform: lowercase;
 }

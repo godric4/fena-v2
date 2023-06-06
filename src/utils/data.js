@@ -3,6 +3,7 @@ import { FaCodeBranch, FaCss3, FaDashcube, FaDatabase,  FaHtml5, FaJs, FaPython,
 export const items = [
  {
   id: 1,
+  status: 'completed',
   name: 'Lorine',
   category: 'React',
   field: 'E-commerce',
@@ -13,6 +14,7 @@ export const items = [
  },
  {
   id: 2,
+  status: 'completed',
   name: 'Targets',
   category: 'React',
   field: 'To-Do',
@@ -24,6 +26,7 @@ export const items = [
  },
  {
   id: 3,
+  status: 'pending',
   name: 'Calxo',
   category: 'Python',
   field: 'Crypto',
@@ -34,6 +37,7 @@ export const items = [
  },
  {
   id: 4,
+  status: 'pending',
   name: 'Nyceli',
   category: 'Vanilla js',
   field: 'SChool Management System',
@@ -44,6 +48,7 @@ export const items = [
  },
  {
   id: 5,
+  status: 'pending',
   name: 'Mr-and-Mrs',
   category: 'HTML and CSS',
   field: 'Wedding Website',
@@ -54,6 +59,7 @@ export const items = [
  },
  {
   id: 6,
+  status: 'completed',
   name: 'PrintF',
   category: 'C',
   field: 'DevOps',
