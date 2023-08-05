@@ -26,8 +26,9 @@ const Home = () => {
             <Link to='/'>Godric Marto</Link>
           </h2>
           <p className='text-intro'>
-            I'm a <span>Web Developer</span> based in Lagos
+            Creative <span> Frontend Web Developer</span>
           </p>
+
           <NavLinks />
           <div className='social-icons'>
             <a href='https://www.facebook.com/Godrique'>
@@ -52,6 +53,9 @@ const Home = () => {
               <FaGithub />
             </a>
           </div>
+          <Link to='/projects' className='portfolio btn'>
+            My Works
+          </Link>
         </div>
       </Wrapper>
     </>
@@ -114,12 +118,29 @@ const Wrapper = styled.main`
     font-style: italic;
   }
 
+  .portfolio {
+    background-color: var(--navy);
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+    display: none;
+
+    :hover {
+      background-color: chocolate;
+      color: var(--navy);
+    }
+  }
+
   /* Media Queries */
   @media screen and (max-width: 992px) {
     background-size: cover;
     background-position: center;
     position: relative;
     max-height: 100vh;
+
+    .portfolio {
+      display: block;
+    }
 
     .name,
     .social-icons,
@@ -128,7 +149,7 @@ const Wrapper = styled.main`
     }
 
     .name {
-      margin-top: 5rem;
+      margin-top: 7rem;
     }
 
     .social-icons {
