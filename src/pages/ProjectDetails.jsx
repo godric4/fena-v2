@@ -47,12 +47,7 @@ const ProjectDetails = () => {
                 <p className='upper'>
                   Language/Framework: <span>{category}</span>
                 </p>
-                <p className='upper'>
-                  Focus Area: <span>{field}</span>
-                </p>
-                <p className='upper'>
-                  Project size: <span>{size}</span>
-                </p>
+
                 <p className='project-link'>
                   Project URL:{' '}
                   <span>
@@ -62,7 +57,9 @@ const ProjectDetails = () => {
                   </span>
                 </p>
 
-                <p className='text-dark'>{description}</p>
+                <p className='upper description'>
+                  Project Description: <br /> <span>{description}</span>
+                </p>
               </div>
             </div>
           </div>
@@ -110,6 +107,13 @@ const Wrapper = styled.section`
 
   .upper {
     text-transform: capitalize;
+  }
+
+  .description span {
+    color: black;
+    font-weight: 400;
+    font-size: 0.96rem;
+    text-transform: none;
   }
 `
 
