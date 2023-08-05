@@ -37,7 +37,7 @@ const Wrapper = styled.div`
 
   .nav-links {
     display: flex;
-    margin-left: 25rem;
+    margin-left: -3rem;
 
     li {
       list-style-type: none;
