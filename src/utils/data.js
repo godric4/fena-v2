@@ -41,7 +41,7 @@ export const items = [
     description:
       "This a beginner weather app project that allows users to check the current weather conditions of a specific location. Users can input a city or location, and the app fetches real-time weather data using a weather API. The project uses HTML, CSS, and JavaScript to build the user interface, and makes asynchronous API requests to retrieve weather information such as temperature, humidity, and weather description. The app dynamically updates the displayed data based on the user's input. ",
     imgUrl:
-      'https://res.cloudinary.com/gentlegiant/image/upload/v1691251716/smashit_yuahyt.png',
+      'https://res.cloudinary.com/gentlegiant/image/upload/v1609892996/samples/landscapes/beach-boat.jpg',
     link: 'https://smash-it-8a898.firebaseapp.com/',
   },
 
