@@ -16,8 +16,8 @@ const About = () => {
         <div className='about container'>
           <p>
             I am an innovative and deadline-driven frontend web developer with
-            years of experience designing and developing user-ce web apps from
-            initial concept to final, polished delivery. I turn dreams and
+            years of experience designing and developing web apps from initial
+            concept to the final polished delivery version. I turn dreams and
             visions in to responsive realities.
           </p>
 
