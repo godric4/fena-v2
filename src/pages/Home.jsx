@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { NavLinks, SideBar } from '../components'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import styled from 'styled-components';
+import { NavLinks, SideBar } from '../components';
+import { Link } from 'react-router-dom';
 import {
   FaFacebook,
   FaGithub,
@@ -9,8 +9,8 @@ import {
   FaLinkedin,
   FaTwitter,
   FaWhatsapp,
-} from 'react-icons/fa'
-import bg from '../assets/bg.jpg'
+} from 'react-icons/fa';
+import bg from '../assets/bg.jpg';
 
 const Home = () => {
   return (
@@ -59,8 +59,8 @@ const Home = () => {
         </div>
       </Wrapper>
     </>
-  )
-}
+  );
+};
 
 const Wrapper = styled.main`
   height: 100vh;
@@ -178,6 +178,6 @@ const Wrapper = styled.main`
       }
     }
   }
-`
+`;
 
-export default Home
+export default Home;

@@ -7,7 +7,10 @@ import {
   FaJs,
   FaPython,
   FaReact,
-} from 'react-icons/fa'
+  FaWind,
+} from 'react-icons/fa';
+
+// import tailwind from '../assets/tailwind-css.svg';
 
 export const items = [
   {
@@ -56,7 +59,7 @@ export const items = [
       'https://res.cloudinary.com/gentlegiant/image/upload/v1675536347/samples/screenshots/targets_ocw431.png',
     link: 'https://targets.netlify.app',
   },
-]
+];
 
 export const interests = [
   {
@@ -76,6 +79,7 @@ export const interests = [
     Icon: FaJs,
     color: 'magenta',
   },
+
   {
     id: 4,
     name: 'React',
@@ -83,31 +87,37 @@ export const interests = [
     color: 'blue',
   },
   {
-    id: 5,
-    name: 'Python',
-    Icon: FaPython,
-    color: 'yellow',
+    id: 4,
+    name: 'Tailwind CSS',
+    Icon: FaWind,
+    color: 'blue',
   },
+  // {
+  //   id: 5,
+  //   name: 'Python',
+  //   Icon: FaPython,
+  //   color: 'yellow',
+  // },
 
-  {
-    id: 7,
-    name: 'DB Management',
-    Icon: FaDatabase,
-    color: 'purple',
-  },
-  {
-    id: 8,
-    name: 'UI/UX',
-    Icon: FaDashcube,
-    color: 'brown',
-  },
+  // {
+  //   id: 7,
+  //   name: 'DB Management',
+  //   Icon: FaDatabase,
+  //   color: 'purple',
+  // },
+  // {
+  //   id: 8,
+  //   name: 'UI/UX',
+  //   Icon: FaDashcube,
+  //   color: 'brown',
+  // },
   {
     id: 9,
     name: 'Version Control',
     Icon: FaCodeBranch,
     color: 'orange',
   },
-]
+];
 
 export const links = [
   {
@@ -130,4 +140,4 @@ export const links = [
     name: 'contact',
     path: '/contact',
   },
-]
+];
