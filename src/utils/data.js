@@ -63,6 +63,19 @@ export const items = [
 
 export const interests = [
   {
+    id: 4,
+    name: 'React',
+    Icon: FaReact,
+    color: 'blue',
+  },
+
+  {
+    id: 5,
+    name: 'Tailwind CSS',
+    Icon: FaWind,
+    color: 'blue',
+  },
+  {
     id: 1,
     name: 'html',
     Icon: FaHtml5,
@@ -86,12 +99,7 @@ export const interests = [
     Icon: FaReact,
     color: 'blue',
   },
-  {
-    id: 4,
-    name: 'Tailwind CSS',
-    Icon: FaWind,
-    color: 'blue',
-  },
+
   // {
   //   id: 5,
   //   name: 'Python',
