@@ -35,11 +35,21 @@ export const items = [
       'https://res.cloudinary.com/gentlegiant/image/upload/v1681177403/Screenshot_from_2023-04-11_02-35-28_jrtduw.png',
     link: 'https://lorinecakes.netlify.app',
   },
-  
+   {
+    id: 3,
+    name: '19Empire',
+    category: 'ReactJs',
+    field: 'Productivity',
+    description:
+      "A clean and dynamic landing page crafted for a startup agency, designed to captivate and convert. Featuring a modern layout, intuitive navigation, and compelling CTAs to highlight services, showcase expertise, and drive engagement. Built for a seamless user experience and strong brand presence.",
+    imgUrl:
+      'https://res.cloudinary.com/gentlegiant/image/upload/v1740247577/Screenshot_from_2025-02-22_18-57-16_x4t1yr.png',
+    link: 'https://empire19.netlify.app/',
+  },
 
  
   {
-    id: 3,
+    id: 4,
     name: 'My Reads',
     category: 'ReactJs',
     field: 'Productivity',
@@ -50,17 +60,7 @@ export const items = [
     link: 'https://myreadspro.web.app/',
   },
 
-  {
-    id: 4,
-    name: '19Empire',
-    category: 'ReactJs',
-    field: 'Productivity',
-    description:
-      "A clean and dynamic landing page crafted for a startup agency, designed to captivate and convert. Featuring a modern layout, intuitive navigation, and compelling CTAs to highlight services, showcase expertise, and drive engagement. Built for a seamless user experience and strong brand presence.",
-    imgUrl:
-      'https://res.cloudinary.com/gentlegiant/image/upload/v1740247577/Screenshot_from_2025-02-22_18-57-16_x4t1yr.png',
-    link: 'https://empire19.netlify.app/',
-  },
+ 
 ];
 
 export const interests = [
