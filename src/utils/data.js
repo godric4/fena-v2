@@ -19,7 +19,7 @@ export const items = [
     category: 'Vanilla Js',
     field: 'E-commerce',
     description:
-      "This a beginner weather app project that allows users to check the current weather conditions of a specific location. Users can input a city or location, and the app fetches real-time weather data using a weather API. The project uses HTML, CSS, and JavaScript to build the user interface, and makes asynchronous API requests to retrieve weather information such as temperature, humidity, and weather description. The app dynamically updates the displayed data based on the user's input. ",
+      "A sleek and modern bar & lounge website designed for an immersive customer experience. Built with a responsive UI, smooth navigation, and engaging visuals to showcase the ambience, menu, and events effortlessly",
     imgUrl:
       'https:'https://res.cloudinary.com/gentlegiant/image/upload/v1740245537/barlounge_pv64wb.png',
     link: 'https://godrichelounge.netlify.app/',
@@ -52,14 +52,14 @@ export const items = [
 
   {
     id: 4,
-    name: 'Targets',
+    name: '19Empire',
     category: 'ReactJs',
     field: 'Productivity',
     description:
-      "This is a simple beginner task management application created with ReactJs. It allows users to create, update, and delete tasks. The project employs React's component-based architecture, state management, and event handling to keep track of tasks and render them dynamically. Users can add new tasks, mark them as completed, and remove completed tasks. The user interface is straightforward, featuring an input field for adding tasks and a list to display them.",
+      "A clean and dynamic landing page crafted for a startup agency, designed to captivate and convert. Featuring a modern layout, intuitive navigation, and compelling CTAs to highlight services, showcase expertise, and drive engagement. Built for a seamless user experience and strong brand presence.",
     imgUrl:
-      'https://res.cloudinary.com/gentlegiant/image/upload/v1675536347/samples/screenshots/targets_ocw431.png',
-    link: 'https://targets.netlify.app',
+      'https://res.cloudinary.com/gentlegiant/image/upload/v1740247577/Screenshot_from_2025-02-22_18-57-16_x4t1yr.png',
+    link: 'https://empire19.netlify.app/',
   },
 ];
 
