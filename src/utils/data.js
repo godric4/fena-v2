@@ -21,7 +21,7 @@ export const items = [
     description:
       "A sleek and modern bar & lounge website designed for an immersive customer experience. Built with a responsive UI, smooth navigation, and engaging visuals to showcase the ambience, menu, and events effortlessly",
     imgUrl:
-      'https://res.cloudinary.com/gentlegiant/image/upload/v1740247577/Screenshot_from_2025-02-22_18-57-16_x4t1yr.png',
+      'https://res.cloudinary.com/gentlegiant/image/upload/v1740245537/barlounge_pv64wb.png',
     link: 'https://godrichelounge.netlify.app/',
   },
   {
