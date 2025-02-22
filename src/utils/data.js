@@ -13,19 +13,33 @@ import {
 // import tailwind from '../assets/tailwind-css.svg';
 
 export const items = [
-  {
+   {
     id: 1,
+    name: 'Bar and Lounge',
+    category: 'Vanilla Js',
+    field: 'E-commerce',
+    description:
+      "This a beginner weather app project that allows users to check the current weather conditions of a specific location. Users can input a city or location, and the app fetches real-time weather data using a weather API. The project uses HTML, CSS, and JavaScript to build the user interface, and makes asynchronous API requests to retrieve weather information such as temperature, humidity, and weather description. The app dynamically updates the displayed data based on the user's input. ",
+    imgUrl:
+      'https:'https://res.cloudinary.com/gentlegiant/image/upload/v1740245537/barlounge_pv64wb.png',
+    link: 'https://godrichelounge.netlify.app/',
+  },
+  {
+    id: 2,
     name: 'Lorine',
     category: 'ReactJs',
     field: 'E-commerce',
     description:
-      'This frontend e-commerce project is a user-facing web application that provides a seamless shopping experience. It allows customers to browse and search for products, view product details, add items to their shopping cart, and proceed to checkout. The project includes interactive features such as user authentication, product filtering, and sorting. It employs responsive design to ensure compatibility across various devices. The application integrates with a backend server to fetch product data and process orders securely. The intuitive user interface, along with smooth navigation and quick loading times and enhances user experience and satisfaction.',
+      'This e-commerce project is a user-facing web application that provides a seamless shopping experience. It allows customers to browse and search for products, view product details, add items to their shopping cart, and proceed to checkout. The project includes interactive features such as user authentication, product filtering, and sorting. It employs responsive design to ensure compatibility across various devices. The application integrates with a backend server to fetch product data and process orders securely. The intuitive user interface, along with smooth navigation and quick loading times and enhances user experience and satisfaction.',
     imgUrl:
       'https://res.cloudinary.com/gentlegiant/image/upload/v1681177403/Screenshot_from_2023-04-11_02-35-28_jrtduw.png',
     link: 'https://lorinecakes.netlify.app',
   },
+  
+
+ 
   {
-    id: 2,
+    id: 3,
     name: 'My Reads',
     category: 'ReactJs',
     field: 'Productivity',
@@ -34,18 +48,6 @@ export const items = [
     imgUrl:
       'https://res.cloudinary.com/gentlegiant/image/upload/v1691251706/myreads_g5jcjm.png',
     link: 'https://myreadspro.web.app/',
-  },
-
-  {
-    id: 3,
-    name: 'Smash It',
-    category: 'Vanilla Js',
-    field: 'Productivity',
-    description:
-      "This a beginner weather app project that allows users to check the current weather conditions of a specific location. Users can input a city or location, and the app fetches real-time weather data using a weather API. The project uses HTML, CSS, and JavaScript to build the user interface, and makes asynchronous API requests to retrieve weather information such as temperature, humidity, and weather description. The app dynamically updates the displayed data based on the user's input. ",
-    imgUrl:
-      'https://res.cloudinary.com/gentlegiant/image/upload/v1609892996/samples/landscapes/beach-boat.jpg',
-    link: 'https://smash-it-8a898.firebaseapp.com/',
   },
 
   {
